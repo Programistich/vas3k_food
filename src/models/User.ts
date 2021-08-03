@@ -3,6 +3,7 @@ import {Review} from "./Review";
 
 export interface User {
     type: UserType,
+    auth: boolean,
     nickname: string,
     countReview: number,
     dateRegistration: Date,
