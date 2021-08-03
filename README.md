@@ -5,4 +5,4 @@
 - Run ```npm run watch```
 
 ## Miro desk for drawing
-https://miro.com/app/board/o9J_knCzoxw
+https://miro.com/app/board/o9J_knCzoxw=/
