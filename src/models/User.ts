@@ -4,6 +4,7 @@ import {Review} from "./Review";
 export interface User {
     type: UserType, // Юзер или редактор или читатель
     auth: boolean, // Верификацтия через Вастрик Апи
+    link: string, // Ссылка на Вастрик ПРофиль
     nickname: string, // Никнейм в тг? а если его нет
     dateRegistration: Date, // Дата регистарации
     countReview: number, // Количество отзывов (если едитор)
