@@ -2,6 +2,7 @@ import {Place} from "./Place";
 import {Review} from "./Review";
 
 export interface User {
+    id: number, // айди в тг
     type: UserType, // Юзер или редактор или читатель
     auth: boolean, // Верификацтия через Вастрик Апи
     link: string, // Ссылка на Вастрик ПРофиль
