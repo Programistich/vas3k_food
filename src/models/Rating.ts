@@ -1,7 +1,8 @@
+// Отзыв от юзера
 export interface Rating{
-    kitchen: number,
-    atmosphere: number,
-    speed: number,
-    service: number,
-    summary: number
+    kitchen: number, // Кухня
+    atmosphere: number, // Атмосфера
+    speed: number, // Скорость обслуживания
+    service: number, // Качество сервиса
+    summary: number // Общая(сред. ариф.)
 }
