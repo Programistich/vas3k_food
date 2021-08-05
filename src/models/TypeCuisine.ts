@@ -1,3 +1,1 @@
-export interface TypeCuisine{
-
-}
+export interface TypeCuisine {}
