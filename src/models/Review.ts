@@ -2,7 +2,7 @@ import {User} from "./User";
 import {Place} from "./Place";
 import {Rating} from "./Rating";
 
-export interface Review{
+export type Review = {
     rate: Rating // Рейтинг от человека
     description: string, // Описание
     user: User, // Человек

@@ -1,5 +1,5 @@
 // Отзыв от юзера
-export interface Rating{
+export type Rating = {
     kitchen: number, // Кухня
     atmosphere: number, // Атмосфера
     speed: number, // Скорость обслуживания
