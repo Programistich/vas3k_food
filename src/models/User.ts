@@ -1,7 +1,7 @@
 import {Place} from "./Place";
 import {Review} from "./Review";
 
-export interface User {
+export type User = {
     id: number, // айди в тг
     editor: boolean, // Юзер или редактор или читатель
     auth: boolean, // Верификацтия через Вастрик Апи
